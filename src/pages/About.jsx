@@ -7,9 +7,9 @@ const About = () => {
   return (
     <div>
       <Header />
-      <div className='content w-90 mx-auto pt-100 pb-100 text-center'>
-        <h1 className='text-48 mb-20'>Augustine (Debright) Onyejekwe</h1>
-        <p className='text-18 mb-20'>
+      <div className='content w-90 mx-auto pt-100 pb-100'>
+        <h1 className='text-48 mb-20 text-center'>Augustine (Debright) Onyejekwe</h1>
+        <p className='text-18 mb-20 text-center'>
           CS + Math Major{' '}
           <a href='' target='_blank' className='text-primary'>
             @ Coming Soon ↗
