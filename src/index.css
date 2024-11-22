@@ -275,7 +275,7 @@ header button {
   border-color: #ccc;
 }
 .border-black {
-  border-color: #000;
+  border: 1px solid #000;
 }
 .border-primary {
   border-color: #007bff;
@@ -415,6 +415,11 @@ header button {
 }
 .pt-100 {
   padding-top: 100px;
+}
+
+.px-15{
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Padding Bottom */
