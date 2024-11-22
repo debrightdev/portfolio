@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <footer className='w-90 mx-auto pb-20'>
         <h2 className='mb-20'>Contact Me.</h2>
-        <p className='mb-20'>
+        <p className='mb-20 text-14'>
           Reach out to me{' '}
           <a
             target='_blank'
@@ -23,7 +23,7 @@ const Footer = () => {
             debrightdev@gmail.com ↗
           </a>
         </p>
-        <ul className='flex align-center gap-20 font-semibold'>
+        <ul className='flex align-center gap-20 font-semibold text-14'>
           <li>
             <a href='https://github.com/debrightdev' target='_blank'>GitHub↗</a>
           </li>
