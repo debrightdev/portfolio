@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <>
-      <footer className='w-90 mx-auto'>
+      <footer className='w-90 mx-auto pb-20'>
         <h2 className='mb-20'>Contact Me.</h2>
         <p className='mb-20'>
           Reach out to me{' '}
@@ -25,13 +25,13 @@ const Footer = () => {
         </p>
         <ul className='flex align-center gap-20 font-semibold'>
           <li>
-            <a href=''>GitHub↗</a>
+            <a href='https://github.com/debrightdev' target='_blank'>GitHub↗</a>
           </li>
           <li>
-            <a href=''>Linkedin↗</a>
+            <a href='https://www.linkedin.com/in/debrightdev/' target='_blank'>Linkedin↗</a>
           </li>
           <li>
-            <a href=''>Twitter↗</a>
+            <a href='https://x.com/debrightdev' target='_blank'>Twitter↗</a>
           </li>
         </ul>
       </footer>

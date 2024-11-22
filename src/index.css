@@ -607,3 +607,25 @@ header button {
 .max-w-100 {
   max-width: 100%;
 }
+
+@media (max-width: 768px){
+  .nav-links{
+    display: none;
+  }
+
+  .text-48{
+    font-size: 30px;
+  }
+
+  header button{
+    font-size: 10px;
+  }
+
+  .logo h3{
+    font-size: 12px;
+  }
+
+  .logo p{
+    font-size: 8px;
+  }
+}
