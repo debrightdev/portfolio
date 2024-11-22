@@ -7,7 +7,7 @@ const Home = () => {
     <div>
       <Header />
       <div className='content w-90 mx-auto pt-100 pb-100'>
-        <h1 className='text-48 mb-20'>Pushing Machines to Brilliance.</h1>
+        <h1 className='text-48 mb-20'>Transforming Code into Reality.</h1>
         <div>
           <span className='text-18 block mb-20'>
             Web dev{' '}
@@ -20,13 +20,15 @@ const Home = () => {
             </a>{' '}
           </span>
           <p className='text-18 block mb-20 max-w-600'>
-            Software Engineer - Building ML Architectures + Models, Backend +
-            Infrastructure Systems & Web + Mobile Apps (Light Work).
+            Software Engineer - Crafting Interactive Websites, Scalable Web
+            Apps, and Seamless User Experiences (Effortlessly).
           </p>
-          <p className='text-18 block mb-20 max-w-600'>The only way to do great work is to love what you do.</p>
+          <p className='text-18 block mb-20 max-w-600'>
+            True success is born from loving the process, not just the result.
+          </p>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <footer className='w-90 mx-auto'>
         <h2 className='mb-20'>Contact Me.</h2>
-        <p className='text-18 mb-20'>
+        <p className='mb-20'>
           Reach out to me{' '}
           <a
             target='_blank'
