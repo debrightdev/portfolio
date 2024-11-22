@@ -1,5 +1,6 @@
 import React from 'react';
 import icon from '../assets/img/icon.png';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -13,9 +14,15 @@ const Header = () => {
           </div>
         </div>
         <ul className='nav-links flex align-center gap-40 justify-center font-semibold'>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Projects</a></li>
+          <li>
+            <Link to='/'>Home</Link>
+          </li>
+          <li>
+            <Link to='/about'>About</Link>
+          </li>
+          <li>
+            <a href=''>Projects</a>
+          </li>
         </ul>
         <button className='font-semibold'>Somewhere building solutions</button>
       </header>
