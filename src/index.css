@@ -118,6 +118,10 @@ header button {
   font-size: 48px;
 }
 
+.text-center{
+  text-align: center;
+}
+
 /* Width in % */
 
 .w-90 {
@@ -157,6 +161,10 @@ header button {
 
 .block {
   display: block;
+}
+
+.object-fit{
+  object-fit: cover;
 }
 
 /* Height in % */
@@ -212,6 +220,11 @@ header button {
 }
 
 .flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-between-2 {
   display: flex;
   justify-content: space-between;
 }
@@ -608,6 +621,10 @@ header button {
   max-width: 100%;
 }
 
+.right p{
+  margin-bottom: 20px;
+}
+
 .content {
   opacity: 0;
   transform: translateY(50px);
@@ -644,5 +661,13 @@ header button {
 
   .logo p {
     font-size: 8px;
+  }
+
+  .flex-between-2{
+    flex-direction: column;
+  }
+
+  .w-50{
+    width: 100%;
   }
 }
